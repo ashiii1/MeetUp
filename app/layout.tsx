@@ -11,10 +11,10 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YOOM",
+  title: "MeetUp",
   description: "Video calling App",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/images/gh.jpeg",
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/images/logg.png",
           },
           variables: {
             colorText: "#fff",

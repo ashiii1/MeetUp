@@ -59,7 +59,26 @@ const config = {
       },
       backgroundImage: {
         hero: "url('/images/new.jpg')",
+        'purple-1': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Ey_Do9VFdXyWt_a_PcfwbgTRMpvfFMv2bA&s')",
+        'orange-1': "url('https://image.cnbcfm.com/api/v1/image/106964727-1634927708871-gettyimages-1299485520-marina6_0249.jpeg?v=1653563935&w=929&h=523&vtcrop=y')",
+        'yellow-1': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq2enm_mE_fXVYNu_V5VIdUD5l1_lVAQnVeg&s')",
+        'sky-1': "url('/images/sky-bg.jpg')",
       },
+      backgroundSize: {
+        'full': '100%',
+        'cover': 'cover',
+        'contain': 'contain',
+      },
+      backgroundRepeat: {
+        'no-repeat': 'no-repeat',
+        'repeat': 'repeat',
+        'repeat-x': 'repeat-x',
+        'repeat-y': 'repeat-y',
+      },
+      backgroundPosition: {
+        'center': 'center',
+      },
+
     },
   },
   plugins: [require('tailwindcss-animate')],
