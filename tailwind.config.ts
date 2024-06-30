@@ -61,9 +61,9 @@ const config = {
       },
       backgroundImage: {
         hero: "url('/images/new.jpg')",
-        'purple-1': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2M1H3ocaGDUbiTPqP0VAcDi96GYs7PAgdag&s')",
-        'orange-1': "url('https://image.cnbcfm.com/api/v1/image/106964727-1634927708871-gettyimages-1299485520-marina6_0249.jpeg?v=1653563935&w=929&h=523&vtcrop=y')",
-        'yellow-1': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHDaoLKRYUu2I3kK31DdOpC4ATufIzJ_dnLg&s')",
+        'purple-1': "url('https://thumbs.dreamstime.com/b/professional-business-woman-manager-working-office-having-virtual-meeting-busy-professional-young-african-american-business-281551854.jpg')",
+        'orange-1': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSpYfQDIfINVT7ayiN5LdgpL34WUtZpUlp1IwOCP30W7iz7ZE8xj7xdvLhTykWD_47BzE&usqp=CAU')",
+        'yellow-1': "url('https://as2.ftcdn.net/v2/jpg/05/49/30/65/1000_F_549306572_WNhEbMSEHQr9jlW8c8VoqxgQcPzzl5tq.jpg')",
         'blue-1': "url('https://cdn.openart.ai/stable_diffusion/79b1c7e09af6dd9cbff61a07f6485bb371d3174d_2000x2000.webp')",
       },
       backgroundSize: {
