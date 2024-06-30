@@ -27,6 +27,8 @@ const config = {
         },
         blue: {
           1: '#0E78F9',
+          2: '#0E78F9',
+
         },
         sky: {
           1: '#C9DDFF',
@@ -59,10 +61,10 @@ const config = {
       },
       backgroundImage: {
         hero: "url('/images/new.jpg')",
-        'purple-1': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Ey_Do9VFdXyWt_a_PcfwbgTRMpvfFMv2bA&s')",
+        'purple-1': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2M1H3ocaGDUbiTPqP0VAcDi96GYs7PAgdag&s')",
         'orange-1': "url('https://image.cnbcfm.com/api/v1/image/106964727-1634927708871-gettyimages-1299485520-marina6_0249.jpeg?v=1653563935&w=929&h=523&vtcrop=y')",
-        'yellow-1': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq2enm_mE_fXVYNu_V5VIdUD5l1_lVAQnVeg&s')",
-        'sky-1': "url('/images/sky-bg.jpg')",
+        'yellow-1': "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHDaoLKRYUu2I3kK31DdOpC4ATufIzJ_dnLg&s')",
+        'blue-1': "url('https://cdn.openart.ai/stable_diffusion/79b1c7e09af6dd9cbff61a07f6485bb371d3174d_2000x2000.webp')",
       },
       backgroundSize: {
         'full': '100%',
