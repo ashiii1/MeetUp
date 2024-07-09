@@ -1,5 +1,10 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 
+interface SignInData {
+  exampleData: string; // Define your actual data structure here
+  // Add more properties as needed
+}
+
 // Define getStaticPaths to generate paths at build time
 export const getStaticPaths: GetStaticPaths = async () => {
   // Replace this with logic to fetch all possible paths for sign-in
@@ -18,7 +23,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async (context) => {
   // Fetch data based on context.params['sigin-in']
   // Replace this with your actual data fetching logic
-  const signInData = { exampleData: 'example' };
+  const signInData: SignInData = { exampleData: 'example' };
 
   return {
     props: {
@@ -27,7 +32,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   };
 };
 
-const SignInPage = ({ signInData }) => {
+const SignInPage = ({ signInData }: { signInData: SignInData }) => {
   // Render your sign-in page using signInData
   return (
     <main>
