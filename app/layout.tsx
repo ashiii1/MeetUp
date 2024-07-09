@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "MeetUp",
   description: "Video calling App",
   icons: {
-    icon: "/images/loggoo.png",
+    icon: "./images/loggoo.png",
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/images/logg.png",
+            logoImageUrl: "./images/logg.png",
           },
           variables: {
             colorText: "#fff",
