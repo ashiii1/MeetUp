@@ -1,14 +1,40 @@
-// Import SignUp from Clerk.js
-import { SignUp } from '@clerk/nextjs';
+import { GetStaticPaths, GetStaticProps } from 'next';
 
-// Define your SignUpPage component
-const SignUpPage = () => {
+// Define getStaticPaths to generate paths at build time
+export const getStaticPaths: GetStaticPaths = async () => {
+  // Replace this with logic to fetch all possible paths for sign-in
+  const paths = [
+    { params: { 'sigin-in': ['example-path'] } },
+    // Add more paths as needed
+  ];
+
+  return {
+    paths,
+    fallback: false // Set fallback to false if you want to return 404 for undefined paths
+  };
+};
+
+// Define getStaticProps to fetch data for the dynamic route
+export const getStaticProps: GetStaticProps = async (context) => {
+  // Fetch data based on context.params['sigin-in']
+  // Replace this with your actual data fetching logic
+  const signInData = { exampleData: 'example' };
+
+  return {
+    props: {
+      signInData,
+    },
+  };
+};
+
+const SignInPage = ({ signInData }) => {
+  // Render your sign-in page using signInData
   return (
-    <main className="flex h-screen w-full items-center justify-center">
-      <SignUp />
+    <main>
+      <h1>Sign In Page</h1>
+      <p>Example data: {JSON.stringify(signInData)}</p>
     </main>
   );
 };
 
-// Export your SignUpPage component as default
-export default SignUpPage;
+export default SignInPage;
